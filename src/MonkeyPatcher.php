@@ -5,7 +5,7 @@
  * @copyright 2018 Kidfund Inc
  */
 
-namespace Helper\Loader;
+namespace Kidfund\Helper;
 
 use ReflectionClass;
 use ReflectionMethod;
