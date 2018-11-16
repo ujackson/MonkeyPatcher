@@ -1,0 +1,29 @@
+{
+    "name": "kidfund/monkey-patcher",
+    "type": "library",
+    "description": "Get tricky with php objects in test",
+    "keywords": [
+        "kidfund",
+        "monkey-patcher"
+    ],
+    "homepage": "https://github.com/Kidfund/MonkeyPatcher",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": ":Tim Broder",
+            "email": "timothy.broder@gmail.com",
+            "homepage": "https://timbroder.com",
+            "role": "CTO"
+        }
+    ],
+    "require": {
+        "php" : "~5.5|~7.0"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Kidfund\\MonkeyPatcher\\": "src"
+        }
+    }
+}
