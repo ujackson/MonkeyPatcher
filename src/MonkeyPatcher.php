@@ -13,7 +13,7 @@ use ReflectionProperty;
 
 /**
  * Trait MonkeyPatcher
- * @package Helper\Loader
+ * @package Kidfund\Helper
  */
 trait MonkeyPatcher
 {
