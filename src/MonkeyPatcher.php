@@ -5,7 +5,7 @@
  * @copyright 2018 Kidfund Inc
  */
 
-namespace Kidfund\Helper;
+namespace Kidfund\MonkeyPatcher;
 
 use ReflectionClass;
 use ReflectionMethod;
@@ -13,7 +13,7 @@ use ReflectionProperty;
 
 /**
  * Trait MonkeyPatcher
- * @package Kidfund\Helper
+ * @package Kidfund\MonkeyPatcher
  */
 trait MonkeyPatcher
 {
