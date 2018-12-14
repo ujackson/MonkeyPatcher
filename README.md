@@ -3,6 +3,7 @@
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
 [![Build Status][ico-travis]][link-travis]
+[![StyleCI][ico-styleci]][link-styleci]
 [![Total Downloads][ico-downloads]][link-packagist]
 
 Access private functions and properties of PHP classes. Primarily used to muck with things under test.
@@ -72,7 +73,9 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
 [ico-travis]: https://img.shields.io/travis/Kidfund/MonkeyPatcher/master.svg?style=flat-square
 [ico-downloads]: https://img.shields.io/packagist/dt/kidfund/monkey-patcher.svg?style=flat-square
+[ico-styleci]: https://github.styleci.io/repos/157911131/shield?branch=master
 
 [link-packagist]: https://packagist.org/packages/kidfund/monkey-patcher
 [link-travis]: https://travis-ci.org/Kidfund/MonkeyPatcher
+[link-styleci]: https://github.styleci.io/repos/157911131
 [link-author]: https://github.com/timbroder
