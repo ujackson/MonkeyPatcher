@@ -2,6 +2,7 @@
 /**
  * @author: timbroder
  * Date: 4/28/17
+ *
  * @copyright 2018 Kidfund Inc
  */
 
@@ -12,8 +13,7 @@ use ReflectionMethod;
 use ReflectionProperty;
 
 /**
- * Trait MonkeyPatcher
- * @package Kidfund\MonkeyPatcher
+ * Trait MonkeyPatcher.
  */
 trait MonkeyPatcher
 {
@@ -26,10 +26,11 @@ trait MonkeyPatcher
      *
      * @param object &$object    Instantiated object that we will run method on.
      * @param string $methodName Method name to call
-     * @param array $parameters  Array of parameters to pass into method.
+     * @param array  $parameters Array of parameters to pass into method.
+     *
+     * @throws \ReflectionException
      *
      * @return mixed Method return.
-     * @throws \ReflectionException
      */
     public function invokeMethod(&$object, string $methodName, array $parameters = [])
     {
@@ -43,7 +44,7 @@ trait MonkeyPatcher
     }
 
     /**
-     * Set protected/private property of a class
+     * Set protected/private property of a class.
      *
      * @param $object
      * @param string $propertyName
@@ -63,13 +64,14 @@ trait MonkeyPatcher
     }
 
     /**
-     * Get protected/private property of a class
+     * Get protected/private property of a class.
      *
      * @param $object
      * @param string $propertyName
      *
-     * @return mixed
      * @throws \ReflectionException
+     *
+     * @return mixed
      */
     public function getProperty(&$object, string $propertyName)
     {

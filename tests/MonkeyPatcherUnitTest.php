@@ -1,15 +1,13 @@
 <?php
 
 use classes\PrivateClass;
-use PHPUnit\Framework\TestCase;
 use Kidfund\MonkeyPatcher\MonkeyPatcher;
+use PHPUnit\Framework\TestCase;
 
 /**
  * @author    : timbroder
  * @copyright 2015 Kidfund Inc
  */
-
-
 class MonkeyPatcherUnitTest extends TestCase
 {
     use MonkeyPatcher;
